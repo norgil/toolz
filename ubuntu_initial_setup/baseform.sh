@@ -9,7 +9,7 @@ fi
 
 echo "Installing necessary packages..."
 apt update
-apt install -y apt-transport-https ca-certificates curl software-properties-common mc wget dnsutils net-tools p7zip-full screen rsync nginx certbot python3-certbot-nginx iputils-ping htop iftop lsof bmon traceroute git vim dnsmasq-base bridge-utils iptables socat unattended-upgrades iperf3 xterm
+apt install -y apt-transport-https ca-certificates curl software-properties-common mc tree wget dnsutils net-tools p7zip-full screen rsync nginx certbot python3-certbot-nginx iputils-ping htop iftop lsof bmon traceroute git vim dnsmasq-base bridge-utils iptables socat unattended-upgrades iperf3 xterm
 
 echo "Reconfiguring unattended-upgrades..."
 dpkg-reconfigure -p low unattended-upgrades
